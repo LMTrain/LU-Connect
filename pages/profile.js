@@ -242,6 +242,7 @@ const styles = theme => ({
   },
   title: {
     color: theme.palette.primary.main
+
   },
   progress: {
     margin: theme.spacing.unit * 2
