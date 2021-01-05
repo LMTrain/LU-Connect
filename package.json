@@ -7,9 +7,8 @@
     "dev": "nodemon server/app.js --watch server",
     "start": "node server/app.js",
     "build": "next build",
-    "deploy": "now --public",
-    "alias": "now alias",
-    "remove:deploy": "now rm lu-connect"
+    "heroku-postbuild": "next build"
+   
   },
   "keywords": [],
   "author": "",
