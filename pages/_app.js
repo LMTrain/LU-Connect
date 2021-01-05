@@ -4,6 +4,7 @@ import Head from "next/head";
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from "@material-ui/core/CssBaseline";
 import JssProvider from "react-jss/lib/JssProvider";
+//COMMENT THIS OUT FOR THE PURPOSE OF DEPLOYEMENT TO HEROKU
 // import withNProgress from "next-nprogress";
 // import NProgressStyles from "next-nprogress/styles";
 
