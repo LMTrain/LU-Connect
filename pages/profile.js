@@ -28,6 +28,7 @@ import {
   deleteComment
 } from "../lib/api";
 
+//setting up profile class
 class Profile extends React.Component {
   state = {
     user: null,
