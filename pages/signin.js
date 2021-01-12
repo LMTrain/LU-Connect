@@ -12,6 +12,7 @@ import Router from "next/router";
 
 import { signinUser } from "../lib/auth";
 
+//Decleared Class Statement
 class Signin extends React.Component {
   state = {
     email: "",
