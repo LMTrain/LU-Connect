@@ -8,6 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import ActiveLink from "./ActiveLink";
 import { signoutUser } from "../lib/auth";
 
+//Declared constant for Navbar
 const Navbar = ({ classes, router, pageProps: { auth } }) => {
   const { user = {} } = auth || {};
 
