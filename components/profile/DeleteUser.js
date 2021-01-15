@@ -10,6 +10,7 @@ import Delete from "@material-ui/icons/Delete";
 import { signoutUser } from "../../lib/auth";
 import { deleteUser } from "../../lib/api";
 
+// Declared Class
 class DeleteUser extends React.Component {
   state = {
     open: false,
