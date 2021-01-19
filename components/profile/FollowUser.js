@@ -2,6 +2,7 @@ import Button from "@material-ui/core/Button";
 
 import { followUser, unfollowUser } from "../../lib/api";
 
+// Create a constant for FollowUsers
 const FollowUser = ({ isFollowing, toggleFollow }) => {
   const request = isFollowing ? unfollowUser : followUser;
 
