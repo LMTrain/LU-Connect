@@ -67,9 +67,17 @@ const Index = ({ classes, auth }) => (
         >
           Get Started
         </Button>
-        <div className={classes.imageContainer}>
-              <img className={classes.image} src="/static/images/lu1.jpg" />
-            </div>
+        <Button
+        
+        className={classes.fabButton}
+        variant="extendedFab"
+          color="primary"
+          onClick={() => Router.push("/signup")}
+        >
+        <img className={classes.image} src="/static/images/lu1.jpg" />
+      
+
+        </Button>
       </Grid>
     )}
   </main>
