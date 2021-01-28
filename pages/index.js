@@ -57,7 +57,7 @@ const Index = ({ classes, auth }) => (
           color="textSecondary"
           component="p"
         >
-          We as a people need to unite as one, and be each others keeper.
+          We as a people need to unite as one, be each others keeper, and uphold the truth.
         </Typography>
         <Button
           className={classes.fabButton}
