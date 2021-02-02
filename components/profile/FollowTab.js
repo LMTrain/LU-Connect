@@ -5,6 +5,7 @@ import GridListTile from "@material-ui/core/GridListTile";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Link from "next/link";
 
+//Declare const for FollowTab
 const FollowTab = ({ classes, users }) => (
   <div className={classes.root}>
     <GridList cellHeight={160} className={classes.gridList} cols={4}>
