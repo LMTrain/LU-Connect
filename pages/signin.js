@@ -104,6 +104,7 @@ class Signin extends React.Component {
   }
 }
 
+//DECLARING CONST FOR THEME STYLES
 const styles = theme => ({
   root: {
     width: "auto",
