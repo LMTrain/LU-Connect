@@ -63,6 +63,7 @@ const Index = ({ classes, auth }) => (
          
         </Typography>
         <br></br>
+
         <Button
           className={classes.fabButton}
           variant="extendedFab"
