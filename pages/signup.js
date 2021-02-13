@@ -136,7 +136,7 @@ class Signup extends React.Component {
         >
           <DialogTitle>
             <VerifiedUserTwoTone className={classes.icon} />
-            New Account
+            Register
           </DialogTitle>
           <DialogContent>
             <DialogContentText>
