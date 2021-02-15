@@ -23,6 +23,7 @@ function Transition(props) {
   return <Slide direction="up" {...props} />;
 }
 
+// Declare Sign up
 class Signup extends React.Component {
   state = {
     name: "",
