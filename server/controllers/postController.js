@@ -61,7 +61,7 @@ exports.deletePost = async (req, res) => {
 
   if (!req.isPoster) {
     return res.status(400).json({
-      message: "You are not authorized to perform this action"
+      message: "You are not authorized to perform this action, please log in with your account to have access"
     });
   }
   const deletedPost = await Post.findOneAndDelete({ _id });
