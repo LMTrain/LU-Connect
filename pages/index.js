@@ -25,8 +25,7 @@ const Index = ({ classes, auth }) => (
             anchor="right"
             classes={{
               paper: classes.drawerPaper
-            }}
-          >
+            }}>
             <UserFeed auth={auth} />
           </Drawer>
         </Grid>
@@ -38,15 +37,13 @@ const Index = ({ classes, auth }) => (
         alignItems="center"
         direction="row"
         container
-        className={classes.heroContent}
-      >
+        className={classes.heroContent}>
         <Typography
           component="h1"
           variant="h2"
           align="center"
           color="textPrimary"
-          gutterBottom
-        >
+          gutterBottom>
           Let's Unite,
           Collaborate, and
           Share ideas.
@@ -55,33 +52,31 @@ const Index = ({ classes, auth }) => (
           variant="h6"
           align="center"
           color="textPrimary"
-          component="p"
-        >
+          component="p">
           We as a people need to unite as one, 
-          <br></br>be each others keeper,
-          <br></br>and uphold the truth.
-          <br></br>
+          be each others keeper, and uphold the truth.
          
+          <Typography
+            component="h1"
+            variant="h2"
+            align="center"
+            color="textPrimary"
+            gutterBottom>
+            <Button
+              className={classes.fabButton}
+              variant="extendedFab"
+              color="primary"
+              onClick={() => Router.push("/signup")}>
+              Get Started
+            </Button>
+          </Typography>
+        </Typography>
         <Button
           className={classes.fabButton}
           variant="extendedFab"
-          color="primary"
-          onClick={() => Router.push("/signup")}
-        >
-          Get Started
-
-        </Button>
-        </Typography>
-        <Button
-        
-        className={classes.fabButton}
-        variant="extendedFab"
-          color="primary"
-          onClick={() => Router.push("/signup")}
-        >
-        <img className={classes.image} src="/static/images/lu1.jpg" />
-      
-
+            color="primary"
+            onClick={() => Router.push("/signup")}>
+          <img className={classes.image} src="/static/images/lu1.jpg" />
         </Button>
       </Grid>
     )}
