@@ -54,16 +54,14 @@ const Index = ({ classes, auth }) => (
         <Typography
           variant="h6"
           align="center"
-          color="textSecondary"
+          color="textPrimary"
           component="p"
         >
           We as a people need to unite as one, 
           <br></br>be each others keeper,
           <br></br>and uphold the truth.
+          <br></br>
          
-        </Typography>
-        <br></br>
-
         <Button
           className={classes.fabButton}
           variant="extendedFab"
@@ -71,7 +69,9 @@ const Index = ({ classes, auth }) => (
           onClick={() => Router.push("/signup")}
         >
           Get Started
+
         </Button>
+        </Typography>
         <Button
         
         className={classes.fabButton}
