@@ -111,11 +111,11 @@ const styles = theme => ({
     width: 350
   },
   fabButton: {
-    margin: theme.spacing.unit * 3
+    margin: theme.spacing.unit * -3
   },
   heroContent: {
     maxWidth: 600,
-    paddingTop: theme.spacing.unit * 8,
+    paddingTop: theme.spacing.unit * 1,
     paddingBottom: theme.spacing.unit * 6,
     margin: "0 auto"
   }

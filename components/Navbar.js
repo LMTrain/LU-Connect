@@ -25,31 +25,36 @@ const Navbar = ({ classes, router, pageProps: { auth } }) => {
         <Typography
           variant="h5"
           component="h1"
-          className={classes.toolbarTitle}
-        >
+          className={classes.toolbarTitle}>
           <ActiveLink href="/">Unity</ActiveLink>
         </Typography>
-
+      
         {user._id ? (
           // Auth Navigation
-          <div>
-            <Button>
-              <ActiveLink href={`/profile/${user._id}`}>Profile</ActiveLink>
-            </Button>
-            <Button onClick={signoutUser} variant="outlined">
-              Sign out
-            </Button>
-          </div>
+          <Typography
+          align="right">
+            <div>
+              <Button>
+                <ActiveLink href={`/profile/${user._id}`}>Profile</ActiveLink>
+              </Button>
+              <Button onClick={signoutUser} variant="outlined">
+                Sign out
+              </Button>
+            </div>
+          </Typography>
         ) : (
           // UnAuth Navigation
-          <div>
-            <Button>
-              <ActiveLink href="/signin">Sign in</ActiveLink>
-            </Button>
-            <Button>
-              <ActiveLink href="/signup">Sign up</ActiveLink>
-            </Button>
-          </div>
+          <Typography
+          align="right">
+            <div>
+              <Button>
+                <ActiveLink href="/signin">Sign in</ActiveLink>
+              </Button>
+              <Button>
+                <ActiveLink href="/signup">Sign up</ActiveLink>
+              </Button>
+            </div>
+          </Typography>
         )}
       </Toolbar>
     </AppBar>
@@ -65,7 +70,7 @@ const styles = theme => ({
     flex: 1
   },
   icon: {
-    marginRight: theme.spacing.unit
+    marginRight: theme.spacing.unit 
   }
 });
 
