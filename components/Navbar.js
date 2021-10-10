@@ -26,7 +26,7 @@ const Navbar = ({ classes, router, pageProps: { auth } }) => {
           variant="h5"
           component="h1"
           className={classes.toolbarTitle}>
-          <ActiveLink href="/">Unity</ActiveLink>
+          <ActiveLink href="/">LM Unity</ActiveLink>
         </Typography>
       
         {user._id ? (
