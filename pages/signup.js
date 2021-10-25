@@ -78,8 +78,8 @@ class Signup extends React.Component {
     return (
       <div className={classes.root}>
         <Paper className={classes.paper}>
-          <Avatar className={classes.avatar}>
-            <Gavel />
+          <Avatar className={classes.avatar} src="/static/images/lu1.jpg">
+           
           </Avatar>
           <Typography variant="h5" component="h1">
             Sign up
