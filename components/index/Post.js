@@ -144,7 +144,7 @@ const styles = theme => ({
     marginBottom: theme.spacing.unit * 3
   },
   cardContent: {
-    backgroundColor: "white"
+    backgroundColor: "rgba(11, 61, 130, 0.06)"
   },
   cardHeader: {
     paddingTop: theme.spacing.unit,
@@ -156,7 +156,7 @@ const styles = theme => ({
     padding: theme.spacing.unit
   },
   image: {
-    height: 200
+    height: 300
   },
   favoriteIcon: {
     color: theme.palette.favoriteIcon
