@@ -40,9 +40,6 @@ const Navbar = ({ classes, router, pageProps: { auth } }) => {
               <Button onClick={signoutUser} variant="outlined">
                 Sign out
               </Button>
-              <Button onClick={Router.push("/contactus")} variant="outlined">
-                Contact Us
-              </Button>
             </div>
           </Typography>
         ) : (
