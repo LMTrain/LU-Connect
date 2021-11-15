@@ -80,6 +80,9 @@ const Index = ({ classes, auth }) => (
         </Button>
       </Grid>
     )}
+    <footer style={{textAlign: 'center'}}>
+      <span>&copy; LM Systems LLC {new Date().getFullYear()}</span>
+    </footer>
   </main>
 );
 
