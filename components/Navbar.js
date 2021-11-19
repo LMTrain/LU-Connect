@@ -48,10 +48,10 @@ const Navbar = ({ classes, router, pageProps: { auth } }) => {
           align="right">
             <div>
               <Button>
-                <ActiveLink href="/signin">Sign in</ActiveLink>
+                <ActiveLink href="/signin">Log in</ActiveLink>
               </Button>
               <Button>
-                <ActiveLink href="/signup">Sign up</ActiveLink>
+                <ActiveLink href="/signup">Get Started</ActiveLink>
               </Button>
             </div>
           </Typography>
