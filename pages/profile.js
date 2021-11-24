@@ -242,7 +242,7 @@ const styles = theme => ({
     }
   },
   title: {
-    color: theme.palette.primary.main
+    color: theme.palette.secondary.main
 
   },
   progress: {
