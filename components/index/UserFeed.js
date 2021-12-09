@@ -51,7 +51,7 @@ class UserFeed extends React.Component {
     return (
       <div>
         <Typography type="title" variant="h6" component="h2" align="center">
-          Browse Users
+          Browse New Users
         </Typography>
         <Divider />
 
