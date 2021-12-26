@@ -22,8 +22,8 @@ exports.validateSignup = (req, res, next) => {
   // Password must be non-null, between 4 and 10 characters
   req.checkBody("password", "Enter a password").notEmpty();
   req
-    .checkBody("password", "Password must be between 4 and 10 characters")
-    .isLength({ min: 3, max: 30 });
+    .checkBody("password", "Password must be between 4 and 30 characters")
+    .isLength({ min: 4, max: 30 });
 
   const errors = req.validationErrors();
   if (errors) {
